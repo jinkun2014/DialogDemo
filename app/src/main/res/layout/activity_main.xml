@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.jinkun.dialogdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FF0000"
+        android:gravity="right|center_vertical">
+
+        <ImageButton
+            android:id="@+id/ibtn_menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/abc_ic_menu_moreoverflow_mtrl_alpha"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通对话框"/>
+
+    <Button
+        android:id="@+id/btn_custom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框1"/>
+
+    <Button
+        android:id="@+id/btn_custom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框2"/>
+
+    <Button
+        android:id="@+id/btn_custom3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框3"/>
+
+    <Button
+        android:id="@+id/btn_custom4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框4"/>
+
+    <Button
+        android:id="@+id/btn_custom5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框5"/>
+
+    <Button
+        android:id="@+id/btn_custom6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框6"/>
+</LinearLayout>
